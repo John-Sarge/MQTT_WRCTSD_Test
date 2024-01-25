@@ -11,6 +11,9 @@ https://github.com/micropython/micropython/pull/10273
 How to Send and Receive Data Using Raspberry Pi Pico W and MQTT (Updated)
 https://www.tomshardware.com/how-to/send-and-receive-data-raspberry-pi-pico-w-mqtt
 
+Install Mosquitto MQTT Broker on Raspberry Pi
+https://randomnerdtutorials.com/how-to-install-mosquitto-broker-on-raspberry-pi/
+
 MAC addresses:
 Pico1: ############
 Pico2: ############
