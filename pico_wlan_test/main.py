@@ -7,6 +7,7 @@ import network   # handles connecting to WiFi
 import urequests # handles making and servicing network requests
 import socket
 import dht
+import time
 from time import sleep
 
 # Connect to network
@@ -25,11 +26,11 @@ ssid = 'put SSID inside these quotes'
 wlan.connect(ssid)#, password)
 
 led = machine.Pin('LED', machine.Pin.OUT)
-    for i in range(wlan.status()):
-        led.on()
-        time.sleep(0.2)
-        led.off()
-        time.sleep(0.2)
+for i in range(wlan.status()):
+    led.on()
+    time.sleep(0.2)
+    led.off()
+    time.sleep(0.2)
     print('Connected')
     status = wlan.ifconfig()
     print('ip = ' + status[0])
